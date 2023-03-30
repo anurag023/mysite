@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#main1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:aliceblue;
+    color: blueviolet;
+    width: 1530px;
+}
+h1{
+    padding-top: 10px;
+    align-items: center;
+    color:blueviolet;
+}
+.ep{
+    color: red;
+}
+.and{
+    color: yellowgreen;
+}
+#main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 690px;
+    width: 1530px;
+    background-color: aliceblue;
+    background: center/cover no-repeat url("../images/aa.jpg");
+}
+img{
+    padding-top: 10px;
+}
+span{
+    color: greenyellow;
+}

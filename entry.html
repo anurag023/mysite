@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Coding</title>
+    <link rel="stylesheet" href="/css/style1.css">
+</head>
+<body>
+    <div id="main1">
+        <h1>You can find anything that you wish, here</h1>
+    </div>
+    <div id="main2">
+        <h2>Make your coding</h2><h2 class="ep">....easy....</h2><h2 class="and">....and....</h2><h2 class="ep">....peasy....</h2><h2>with creativeness</h2>
+        <img src="/images/cc.gif">
+        <h1>Welcome to <span>C</span>reative <span>C</span>oding</h1>
+    </div>
+    <script>
+        var seconds=0;
+        function displayseconds()
+        {
+            seconds +=1;
+        }
+        setInterval(displayseconds,1000);
+        function redirectpage()
+        {
+            window.location="index.html";
+        }
+        setTimeout('redirectpage()',5000)
+    </script>
+</body>
+</html>
