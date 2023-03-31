@@ -1,0 +1,123 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+#mainbody{
+    width: 1517px;
+    height: 780px;
+    background: linear-gradient(-60deg,#caefd1,#caf4f4,#9ef0f0)
+}
+#navbar{
+    background-color: black;
+    padding: 7px 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 1517px;
+    /* position: sticky;
+    top: 0; */
+}
+#navbar1{
+    background-color: red;
+    padding: 7px 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* position: sticky;
+    top: 0; */
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: fixed; */
+}
+#navbar li{
+    list-style: none;
+    padding: 10px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: aliceblue;
+    
+}
+#navbar li a:hover{
+    color:red;
+}
+#logo a img{
+    display:flex;
+    color: aliceblue;
+    height: 40px;
+}
+#mainbody2{
+    height: 780px;
+    width: 1517px;
+}
+#box1m{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1517px;
+    justify-content: center;
+}
+#box2m{
+
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1517px;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid red;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(40deg,rgb(25, 23, 23),rgb(92, 91, 91),rgb(144, 143, 143),rgb(27, 15, 15));
+    font-size: 1.5rem;
+}
+#box1m a{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+}
+#box1m a:hover{
+    box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+}
+#box2m a{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+}
+#box2m a:hover{
+    box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+}

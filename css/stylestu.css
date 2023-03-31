@@ -61,6 +61,43 @@
     width: 1517px;
 }
 .docu{
+    text-align: center;
     margin-top: 20px;
     font-size: 3rem;
+}
+#main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:100px;
+    /* background-color: blueviolet; */
+    height: 400px;
+    width: 1517px;
+}
+.studiv1{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid red; */
+    border-radius: 50% 50%;
+    margin-right: 30px;
+}
+.studiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(40deg, rgb(172, 172, 242),rgb(240, 195, 240),rgb(206, 241, 206));
+    border: 2px solid purple;
+    border-radius: 50% 50%;
+}
+
+#main1 a{
+    text-decoration: none;
+    color: black;
+}
+#main1 .studiv1 a:hover{
+    border-radius: 50% 50%;
+    background: linear-gradient(40deg,rgb(49, 42, 42),rgb(59, 48, 48));
+    color: red;
 }
