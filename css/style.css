@@ -65,7 +65,7 @@ header{
     color: aliceblue;
     height: 40px;
 }
-@media(max-width:375px) {
+@media(max-width:600px) {
     #rear{
         display: flex;
         flex-direction: column;
@@ -218,7 +218,7 @@ header{
     font-size: 2rem;
     /* font-family: @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap'); */
 }
-@media (max-width:375px){
+@media (max-width:600px){
     #body{
         display: flex;
         flex-direction: column;
@@ -365,7 +365,7 @@ header{
     width: auto;
     background-color:greenyellow;
 }
-@media (max-width:375px){
+@media (max-width:600px){
     #condiv{
         display: flex;
         flex-direction:row;
