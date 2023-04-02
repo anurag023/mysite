@@ -65,7 +65,7 @@ header{
     color: aliceblue;
     height: 40px;
 }
-@media(max-width:600px) {
+@media (max-width:600px) {
     #rear{
         display: flex;
         flex-direction: column;
@@ -336,8 +336,10 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    min-height: 83vh;
+    min-height: 78vh;
+    width: 500px;
     background-color: aliceblue;
+    opacity: 60%;
     /* display: flex;
     align-items: center;
     flex-direction: column;
@@ -352,7 +354,7 @@ header{
 }
 .myinput{
     display: block;
-    width: 300px;
+    width: 400px;
     padding: 9px;
     margin: 8px;
     border: 2px solid rgb(67, 42, 42);
@@ -381,18 +383,19 @@ header{
 @media (max-width:600px){
     #contact_us{
         /* filter: blur(10px); */
-        height: 1000px;
+        height: 1200px;
         width: 1517px;
         background: center/cover no-repeat url("../images/q2.jpeg");
-        opacity: 70%;
+        opacity: 100%;
         filter: drop-shadow(5px);
+        /* margin-top: 220rem; */
     }
     #condiv{
         display: flex;
         flex-direction:row;
         justify-content: center;
         align-items: center;
-        height: 1000px;
+        height: 1200px;
         width: 1000px;
         background:aliceblue;
         opacity: 100%;
@@ -400,7 +403,7 @@ header{
         margin-left: 259px;
     }
     .container{
-        height: 1000px;
+        height: 1200px;
         width: 1000px;
         background: aliceblue;
         /* display: flex;
@@ -425,11 +428,17 @@ header{
     .myinput{
         display: block;
         width: 800px;
-        height: 50px;
+        height: 100px;
         padding: 9px;
         margin: 8px;
         border: 2px solid rgb(67, 42, 42);
         border-radius: 18px;
         outline: none;
+    }
+    input {
+        font-size: larger;
+        display: block;
+        width: 400px;
+        margin-top: 0.5rem;
     }
 }
