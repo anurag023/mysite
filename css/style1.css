@@ -12,10 +12,19 @@
     color: blueviolet;
     width: 1530px;
 }
+
 h1{
     padding-top: 10px;
     align-items: center;
     color:blueviolet;
+}
+@media (max-width:600px){
+    #main{
+        height: 50px;
+    }
+    h1{
+        font-size: 4rem;
+    }
 }
 .ep{
     color: red;
@@ -33,9 +42,27 @@ h1{
     background-color: aliceblue;
     background: center/cover no-repeat url("../images/aa.jpg");
 }
+@media (max-width:600px){
+    #main2{
+        justify-content: flex-start;
+        height: 2500px;
+        font-size: 4rem;
+    }
+    h2{
+        margin-top: 30px;
+    }
+
+}
 img{
     padding-top: 10px;
+   
 }
 span{
     color: greenyellow;
+}
+@media (max-width:600px){
+    img{
+    height: 700px;
+    width: 800px;
+    }
 }
