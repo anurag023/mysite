@@ -379,12 +379,20 @@ header{
     
 }
 @media (max-width:600px){
+    #contact_us{
+        /* filter: blur(10px); */
+        height: 1000px;
+        width: 1517px;
+        background: center/cover no-repeat url("../images/q2.jpeg");
+        opacity: 70%;
+        filter: drop-shadow(5px);
+    }
     #condiv{
         display: flex;
         flex-direction:row;
         justify-content: center;
         align-items: center;
-        height: 900px;
+        height: 1000px;
         width: 1000px;
         background:aliceblue;
         opacity: 100%;
@@ -392,7 +400,7 @@ header{
         margin-left: 259px;
     }
     .container{
-        height: 900px;
+        height: 1000px;
         width: 1000px;
         background: aliceblue;
         /* display: flex;
@@ -404,7 +412,7 @@ header{
         text-align: center;
         margin: 12px 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .myform{
         display: flex;
@@ -416,7 +424,8 @@ header{
     }
     .myinput{
         display: block;
-        width: 600px;
+        width: 800px;
+        height: 50px;
         padding: 9px;
         margin: 8px;
         border: 2px solid rgb(67, 42, 42);
